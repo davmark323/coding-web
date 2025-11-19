@@ -237,9 +237,10 @@ main {
     color: rgb(46, 39, 39);
     text-align: center;
     margin-top: 40px;
-    font-size: 40px;
-    height:300px;
+    font-size: 30px;
     box-shadow: 0 3px 10px;
+    padding: 20px;
+    border-radius: 10px;
 }
 
 .cont{
@@ -252,7 +253,7 @@ main {
 }
 
 .Any{
-    background: floralwhite;
+    background: rgba(255, 250, 240, 0.562);
     font-size: 28px;
     width:550px;
     height: 200px;
@@ -275,7 +276,7 @@ main {
 }
 
 .mail{
-    background: floralwhite;
+    background: rgba(255, 250, 240, 0.248);
     font-size: 28px;
     width:550px;
     height: 200px;
@@ -286,7 +287,15 @@ main {
     margin-right:50px;
 }
 
+
+
 @media (max-width: 600px) {
+    header{
+       background: rgb(230, 230, 241);
+       position: sticky;
+       top: 0;
+       padding: 0.3em 0.6em;
+    }
     header nav {
         display: block;
     }
@@ -294,12 +303,11 @@ main {
     header nav div {
         margin-bottom: 0.1em;
     }
-
     
-  /* main {
+  main {
     max-width: 90vw;
     margin: auto;
-  }  */
+  } 
     .skills {
         display: block;
     }
@@ -348,17 +356,19 @@ main {
 
   .men{
      margin-left: 50px;
+     
   }
     
   .con{
     background:rgb(255, 248, 220);
     color: rgb(46, 39, 39);
     margin-top: 40px;
-    height:660px;
+    border-radius: 10px;
   }
 
    .Any{
-      width: fit-content ;
+      font-size: 20px;
+      width: fit-content;
    }
 
   .Any h1{
@@ -374,6 +384,7 @@ main {
   }  
 
  
+
 }
 
 

@@ -307,6 +307,11 @@ form{
     padding: 0.9vh;
 }
 
+footer{
+    background:rgb(77, 213, 234);
+    padding:1.9em;
+}
+
 @media (max-width: 600px) {
 
     header {
@@ -354,8 +359,21 @@ form{
       display: block;
    }
 
+   .icon{
+    margin-top: 10px;
+   }
+
    .mentor{
       display: block;
+   }
+
+   .meto{
+      margin: 10px;
+   }
+
+   footer{
+    background:rgba(135, 235, 250, 0.821);
+    height: 20vw;
    }
 }
 

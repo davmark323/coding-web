@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 2px solid red; */
+
 }
 
 body {
@@ -15,6 +17,7 @@ header {
     position: sticky;
     top: 0;
     padding: 0.3em 0.6em;
+    border: 2px solid red;
 }
 
 header nav a:hover{
@@ -29,7 +32,7 @@ header nav {
 
 header nav div img{
     border-radius: 100%;
-    width: 50px;
+    width: 30px;
 }
 
 header nav ul {
@@ -53,13 +56,14 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    flex-wrap: wrap;
     margin-top: 1.3em;
     /* border: 2px solid white; */
 }
 
+
+
 .bio span {
-    color: aquamarine;
+    color: rgb(56, 234, 175);
 }
 
 .bio > * {
@@ -258,7 +262,7 @@ main {
     justify-content: space-between;
 }
 
-.Any{
+.any{
     background: rgba(255, 250, 240, 0.562);
     font-size: 28px;
     width:550px;
@@ -269,14 +273,14 @@ main {
     border-radius: 10px;
 }
 
-.Any h1{
+.any h1{
 
     margin-top: 15px;
     margin-left: 35px;
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Any p{
+.any p{
     margin-top: 20px;
     margin-left: 35px;
 }
@@ -284,8 +288,8 @@ main {
 .mail{
     background: rgba(255, 250, 240, 0.248);
     font-size: 28px;
-    width:550px;
-    height: 200px;
+    width:360px;
+    height: 220px;
     margin-top: 15px;
     color: rgb(18, 16, 16);
     border-radius: 10px;
@@ -293,105 +297,65 @@ main {
     margin-right:50px;
 }
 
-
-
-@media (max-width: 600px) {
-    header{
-       background: rgb(230, 230, 241);
-       position: sticky;
-       top: 0;
-       padding: 0.3em 0.6em;
-    }
-    header nav {
-        display: block;
-    }
-
-    header nav div {
-        margin-bottom: 0.1em;
-    }
-    
-  main {
-    max-width: 90vw;
-    margin: auto;
-  } 
-    .skills {
-        display: block;
-    }
-
-    .git {
-        max-width: 100%;
-        margin-bottom: .7em;
-    }
-
-    .about{
-        display: block;
-    }
-       
-    .abt{
-        display: block;
-    }
-
-    .image{
-        width: 250px;
-    }
-
-    .work{
-        display: block;
-
-    }
-
-    .icon{
-        height: 350px;
-        max-width: 100%;
-        margin-bottom: .7em;
-       
-    }
-    
-    .mentor{
-    color: rgb(54, 44, 44);  
-    display:block;  
-    margin-top: 20px;
-  }   
-  
-  .meto{
-    background: white;
-    color: rgb(122, 116, 116);
-    width: 370px;
-    margin-top: 10px;
-  }
-
-  /* .men{
-     margin-left: 50px;
-     
-  } */
-    
-  .con{
-    /* background:rgb(255, 248, 220); */
-    background:rgba(38, 207, 237, 0.567);
-    color: rgb(53, 51, 51);
-    margin-top: 40px;
-    border-radius: 10px;
-  }
-
-   .Any{
-      font-size: 20px;
-      width: fit-content;
-   }
-
-  .Any h1{
-    margin-top: 15px;
-    margin-left: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- }
-
-  .me{
-    display: block;
-    
-  }  
-
- 
-
+form{
+    width: 70%;
+    margin: 0 auto;
 }
 
+.input{
+    margin-top: 20px;
+    padding: 0.9vh;
+}
+
+@media (max-width: 600px) {
+
+    header {
+    background: rgb(230, 230, 241);
+    position: sticky;
+    top: 0;
+    padding: 0.2em 0.4em;
+  }
+
+  header nav {
+    display: block;
+  }
+
+  .boi{
+    display:block;
+    align-items: center;
+    margin-top: 1.3em;
+    /* border: 2px solid white; */
+   }
+
+   .btn{
+      font-size: small;
+   }
+ 
+   .skills{
+       display: block;
+       width:200vw;
+   }
+
+   .git{
+      margin-top: 20px;
+      border-radius: 20px;
+   }
+
+   .abt{
+      display: block;
+   }
+
+   .image{
+      width: 70%;
+      text-align: center    ;
+   }
+
+   .work{
+      display: block;
+   }
+
+   .mentor{
+      display: block;
+   }
+}
 
